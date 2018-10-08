@@ -104,7 +104,6 @@ def winner(board)
 end
 
 def play(board)
-<<<<<<< HEAD
   until(over?(board))
     turn(board)
   end
@@ -113,18 +112,6 @@ def play(board)
   end
   if(draw?(board))
     puts "Cat's Game!"
-=======
-  for i in (0...9)
-    turn(board)
-    if(winner(board) != nil)
-      puts "test"
-      break
-    end
-    if(draw?(board))
-      puts "draw"
-      break
-    end
->>>>>>> 4498f7c461f78e0b61df1f915dc17be818cf708c
   end
 end
 
